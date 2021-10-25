@@ -1,0 +1,5 @@
+syntax on
+set number
+set cursorline
+filetype on
+autocmd vimenter * if !argc() | NERDTree | endif
