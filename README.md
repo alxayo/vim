@@ -58,3 +58,12 @@
 ## Vim Windows movement
 - Ctrl + w (hjkl)
 - Ctrl + ww
+
+# Resources
+## Articles to review
+-  [Buffers](https://mkaz.blog/working-with-vim/buffers/)
+-  [Buffers-Windows-Tabs](https://joshldavis.com/2014/04/05/vim-tab-madness-buffers-vs-tabs/)
+-  [Buffer-Windows-Tabs 3D](https://dev.to/iggredible/using-buffers-windows-and-tabs-efficiently-in-vim-56jc)
+## Plug-ins
+- [vim-airline](https://github.com/vim-airline/vim-airline)
+- [vim-buffergator](https://github.com/jeetsukumaran/vim-buffergator)
