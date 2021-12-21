@@ -44,3 +44,17 @@
    Launch `vim` and run `:PluginInstall`
 
    To install from command line: `vim +PluginInstall +qall`
+   
+# Short-Cuts
+
+## NERD Tree
+- o to open the file in a new buffer or open/close directory.
+- t to open the file in a new tab.
+- i to open the file in a new horizontal split.
+- s to open the file in a new vertical split.
+- p to go to parent directory.
+- r to refresh the current directory.
+
+## Vim Windows movement
+- Ctrl + w (hjkl)
+- Ctrl + ww
