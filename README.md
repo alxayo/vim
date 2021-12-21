@@ -98,6 +98,7 @@ A tab can show one or more windows and if more than one tab exists a list of tab
 -  [Buffers-Windows-Tabs](https://joshldavis.com/2014/04/05/vim-tab-madness-buffers-vs-tabs/)
 -  [Buffer-Windows-Tabs 3D](https://dev.to/iggredible/using-buffers-windows-and-tabs-efficiently-in-vim-56jc)
 ## Plug-ins
+- [Nerd Tree](https://docs.microsoft.com/en-us/azure/devops/boards/plans/configure-hierarchical-teams?view=azure-devops)
 - [vim-airline](https://github.com/vim-airline/vim-airline)
 - [vim-buffergator](https://github.com/jeetsukumaran/vim-buffergator)
 - [vim-zsh-mode](https://github.com/jeffreytse/zsh-vi-mode)
