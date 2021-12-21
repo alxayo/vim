@@ -67,3 +67,4 @@
 ## Plug-ins
 - [vim-airline](https://github.com/vim-airline/vim-airline)
 - [vim-buffergator](https://github.com/jeetsukumaran/vim-buffergator)
+- [vim-zsh-mode](https://github.com/jeffreytse/zsh-vi-mode)
