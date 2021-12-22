@@ -47,6 +47,29 @@
    
 # Short-Cuts
 
+## Enter Insert mode
+- **i**	- insert at the current position
+- **I**	- insert at the beginning of line
+- **a**	- append just after the current cursor position
+- **A**	- append at the end of line
+- **o**	- Open a new line below the current line
+- **O**	- Open a new line above the current line
+
+## Copy/Paste
+### Insert mode
+In normal mode, one can copy (yank) with **y{motion}**, where **{motion}** is a Vim motion. For example, yw copies to the beginning of the next word. Other helpful yanking commands include:
+
+- **yy**	- or Y – yank the current line, including the newline character at the end of the line
+- **y$** – yank to the end of the current line (but don't yank the newline character); note that many people like to remap Y to y$ in line with C and D
+- **yiw** – yank the current word (excluding surrounding whitespace)
+- **yaw** – yank the current word (including leading or trailing whitespace)
+- **ytx** – yank from the current cursor position up to and before the character (til x)
+- **yfx** – yank from the current cursor position up to and including the character (find x)
+Cutting can be done using **d{motion}**, including:
+
+**dd** - cut the current line, including the newline character at the end of the line
+To copy into a register, one can use "{register} immediately before one of the above commands to copy into the register {register}.
+
 ## NERD Tree
 - o to open the file in a new buffer or open/close directory.
 - t to open the file in a new tab.
