@@ -70,6 +70,11 @@ Cutting can be done using **d{motion}**, including:
 **dd** - cut the current line, including the newline character at the end of the line
 To copy into a register, one can use "{register} immediately before one of the above commands to copy into the register {register}.
 
+### Pasting in normal mode
+In normal mode, one can use **p** to paste after the cursor, or **P** to paste before the cursor.
+
+The variants **gp** and **gP** move the cursor after the pasted text, instead of leaving the cursor stationary.
+
 ## NERD Tree
 - o to open the file in a new buffer or open/close directory.
 - t to open the file in a new tab.
