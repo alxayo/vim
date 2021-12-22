@@ -75,6 +75,10 @@ In normal mode, one can use **p** to paste after the cursor, or **P** to paste b
 
 The variants **gp** and **gP** move the cursor after the pasted text, instead of leaving the cursor stationary.
 
+### Pasting in insert mode
+The contents of a register can be pasted while in insert mode: type **Ctrl-r** then a character that identifies the register. For example, **Ctrl-r** then **"** pastes from the default register, and **Ctrl-r** then **0** pastes from register zero which holds the text that was most recently yanked (copied)
+
+
 ## NERD Tree
 - o to open the file in a new buffer or open/close directory.
 - t to open the file in a new tab.
