@@ -78,6 +78,22 @@ The variants **gp** and **gP** move the cursor after the pasted text, instead of
 ### Pasting in insert mode
 The contents of a register can be pasted while in insert mode: type **Ctrl-r** then a character that identifies the register. For example, **Ctrl-r** then **"** pastes from the default register, and **Ctrl-r** then **0** pastes from register zero which holds the text that was most recently yanked (copied)
 
+## Vim Screen Navigation
+
+- **G** – Go to the end of the file.
+- **g** – Go to the beginning of the file.
+
+- **H** – Go to the first line of current screen.
+- **M** – Go to the middle line of current screen.
+- **L** – Go to the last line of current screen.
+- **ctrl+f** – Jump forward one full screen.
+- **ctrl+b** – Jump backwards one full screen
+- **ctrl+d** – Jump forward (down) a half screen
+- **ctrl+u** – Jump back (up) one half screen
+
+- **N%** – Go to the Nth percentage line of the file.
+- **NG** – Go to the Nth line of the file.
+
 
 ## NERD Tree
 - o to open the file in a new buffer or open/close directory.
