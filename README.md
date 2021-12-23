@@ -164,6 +164,11 @@ A tab can show one or more windows and if more than one tab exists a list of tab
 - gt/gT , :tabnext/:tabprev show next/previous tab
 - :tab sball open all buffers in tabs
 
+## Vim-to-Shell and Back
+> **sh:** - on cmdline to go to shell
+> 
+> **<CTL+D>** - go back to Vim
+
 # Resources
 ## Articles to review
 -  [Buffers](https://mkaz.blog/working-with-vim/buffers/)
