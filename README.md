@@ -182,6 +182,7 @@ A tab can show one or more windows and if more than one tab exists a list of tab
 ## Plug-ins
 - [Nerd Tree](https://github.com/preservim/nerdtree)
 - [vim-airline](https://github.com/vim-airline/vim-airline)
+- [powerline](https://github.com/powerline)
 - [vim-buffergator](https://github.com/jeetsukumaran/vim-buffergator)
 - [vim-zsh-mode](https://github.com/jeffreytse/zsh-vi-mode)
 
