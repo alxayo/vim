@@ -17,9 +17,11 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'morhetz/gruvbox'
 Plugin 'preservim/nerdtree'
+Plugin 'jeetsukumaran/vim-buffergator'
 
 call vundle#end()
 " }}}
+
 
 " COLORSCHEME ---------------------------------------------------------------- {{{
 filetype plugin indent on
@@ -28,4 +30,15 @@ filetype plugin indent on
 set bg=dark
 let g:gruvbox_contrast_dark = 'soft'
 colorscheme gruvbox
-" }}}
+"" }}}
+
+
+" NERDTree short-cut---------------------------------------------------------- {{{
+"
+" Start NERDTree and leave the cursor in it.
+autocmd VimEnter * NERDTree
+nnoremap <C-f> :NERDTreeFocus<CR>
+" Exit Vim if NERDTree is the only window remaining in the only tab.
+ autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
+
+"" }}}
