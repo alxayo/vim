@@ -132,6 +132,30 @@ A Vim Window is what you see and interact with. A Window always shows a Buffer, 
 - :q close a window (if it is the last window it also exits the editor)
 - :qa close all windows and exit the editor
 Many famous Vim plugins like NERDTree uses Windows to show lists or the filesystem.
+### Buffer mappings - no plug-ins
+ ```vim
+" Mappings to access buffers (don't use "\p" because a
+" delay before pressing "p" would accidentally paste).
+" \l       : list buffers
+" \b \f \g : go back/forward/last-used
+" \1 \2 \3 : go to buffer 1/2/3 etc
+nnoremap <Leader>l :ls<CR>
+nnoremap <Leader>b :bp<CR>
+nnoremap <Leader>f :bn<CR>
+nnoremap <Leader>g :e#<CR>
+nnoremap <Leader>1 :1b<CR>
+nnoremap <Leader>2 :2b<CR>
+nnoremap <Leader>3 :3b<CR>
+nnoremap <Leader>4 :4b<CR>
+nnoremap <Leader>5 :5b<CR>
+nnoremap <Leader>6 :6b<CR>
+nnoremap <Leader>7 :7b<CR>
+nnoremap <Leader>8 :8b<CR>
+nnoremap <Leader>9 :9b<CR>
+nnoremap <Leader>0 :10b<CR>
+" It's useful to show the buffer number in the status line.
+set laststatus=2 statusline=%02n:%<%f\ %h%m%r%=%-14.(%l,%c%V%)\ %P
+```
 
 ## Vim-Tabs
 A tab can show one or more windows and if more than one tab exists a list of tabs is shown at the top of the editor, much like tabs in a browser.
