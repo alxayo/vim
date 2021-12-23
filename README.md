@@ -45,6 +45,11 @@
 
    To install from command line: `vim +PluginInstall +qall`
    
+5. Install Powerline Fonts
+   Font are used as part of Airline plugin
+> sudo apt-get install fonts-powerline
+
+
 # Short-Cuts
 
 ## Enter Insert mode
