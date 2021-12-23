@@ -179,3 +179,6 @@ A tab can show one or more windows and if more than one tab exists a list of tab
 - [vim-airline](https://github.com/vim-airline/vim-airline)
 - [vim-buffergator](https://github.com/jeetsukumaran/vim-buffergator)
 - [vim-zsh-mode](https://github.com/jeffreytse/zsh-vi-mode)
+
+## Videos
+- [90% VIM without plug-ins](https://www.youtube.com/watch?v=XA2WjJbmmoM)
