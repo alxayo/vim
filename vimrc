@@ -53,7 +53,8 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'morhetz/gruvbox'
 Plugin 'preservim/nerdtree'
-Plugin 'jeetsukumaran/vim-buffergator'
+" Plugin 'jeetsukumaran/vim-buffergator'
+Plugin 'vim-airline/vim-airline'
 
 call vundle#end()
 " }}}
@@ -76,5 +77,12 @@ autocmd VimEnter * NERDTree
 nnoremap <C-n> :NERDTreeToggle<CR>
 " Exit Vim if NERDTree is the only window remaining in the only tab.
  autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
+
+"" }}}
+
+" Airline plug-in cinfiguration ---------------------------------------------------------- {{{
+" Automatically show buffers when there is only one tab
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#buffer_nr_show = 1
 
 "" }}}
