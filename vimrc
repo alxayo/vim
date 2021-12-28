@@ -1,10 +1,46 @@
+" Disable compatibility with vi which can cause unexpected issues.
 set nocompatible
+
+" Enable type file detection. Vim will be able to try to detect the type of file in use.
+" filetype on
 filetype off
 
+" Turn syntax highlighting on.
 syntax on
+
+" Add numbers to each line on the left-hand side.
 set number
+
+" Highlight cursor line underneath the cursor horizontally.
 set cursorline
+
+" Highlight cursor line underneath the cursor vertically.
+set cursorcolumn
+
 set hidden
+
+" NO-PLUGIN SETTINGS ---------------------------------------------------- {{{
+" Enable plugins and load plugin for the detected file type.
+filetype plugin on
+
+" Load an indent file for the detected file type.
+filetype indent on
+
+" FINDING FILES:
+" Search down into subfolders
+" Provides tab-completion for all file-related tasks
+set path+=**
+
+" Display all matching files when we tab complete
+set wildmenu
+
+" NOW WE CAN:
+" - Hit tab to :find by partial match
+" - Use * to make it fuzzy
+" THINGS TO CONSIDER:
+" - :b lets you autocomplete any open buffer
+
+" }}}
 
 " zo to open a single fold under the cursor.
 " zc to close the fold under the cursor.
